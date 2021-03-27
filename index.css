@@ -11,12 +11,13 @@
 .corSecundaria {
     background-color: #2c3e50;
 }
+
 p {
     font-family: lato,'Helvetica Neue', Arial, Helvetica, sans-serif;
     color: black !important;
 }
+
 .titulosBrancos {
-    text-decoration:;
     text-underline-position: below;
     padding-bottom: 20px;
     text-transform: uppercase;
@@ -32,9 +33,11 @@ p {
     font-weight: 700;
     color: #18bc9c;
 }
+
 .textoBranco{
     color: white !important;
 }
+
 .jumbotron {
     margin-bottom: 0px;
 }
@@ -42,8 +45,7 @@ p {
 .contado{
     bottom: 0;
     width: 100%;
-    line-height: 60px;
-   
+    line-height: 60px; 
 }
 
 .footer {
@@ -54,10 +56,8 @@ p {
     background-color: #f5f5f5;
 }
 
-}
-
 .jumbotron p:last-child {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .jumbotron-heading {
@@ -66,4 +66,12 @@ p {
 
 .jumbotron .container {
   max-width: 40rem;
+}
+
+body {
+    padding-bottom: 20px;
+}
+  
+.navbar {
+    margin-bottom: 20px;
 }
